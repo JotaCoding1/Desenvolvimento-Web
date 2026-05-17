@@ -1,0 +1,102 @@
+/* Estilização geral do HTML do site para ser aplicada a tudo */
+
+html {
+
+    background-color: rgb(54, 53, 53);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+
+}
+
+/* Estilização do header, onde tem o titulo e o link para a próxima pagina */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+header a {
+    color: white;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+/* Hover para uma animação de mudança de cor do link */
+
+header a:hover {
+    background-color: rgb(15, 211, 64);
+    color: rgb(54, 53, 53);
+}
+
+/* Span para alterar a cor de uma única palavra */
+
+#span {
+    color: rgb(15, 211, 64);
+
+}
+
+/* Estilização geral do titulo e da section principal */
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+.main-section {
+    margin-left: 100px;
+
+}
+
+.main-section p {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.main-section h3 {
+    margin-left: 20px;
+    color: rgb(15, 211, 64);
+}
+
+.main-section ul {
+    color: rgb(15, 211, 64);
+
+    list-style-type: circle;
+    padding: 0;
+}
+
+/* Estilização da segunda section */
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Estilização da nav e do footer */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+nav a, footer p {
+    color: white;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-align: center;
+}
